@@ -3,16 +3,25 @@
 Library to effortlessly convert your non-SSR React applications into responsive, SSR React applications.
 https://ss-react.github.io/react-prime/
 
+## Please Note
+
+This library has been developed to work with Create-React-Apps exclusively. <br />
+Dependencies that rely on the window object before checking if it exists will not be compatable with React-Prime.
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Installing
 
-- Local installation
+Local installation
 
 ```
 npm install --save react-prime
+```
+Then, install the required dependencies
+```
+npm i inquirer @babel/core @babel/plugin-syntax-dynamic-import @babel/preset-env @babel/preset-react @babel/register react-frontload react-helmet react-loadable md5-file
 ```
 
 
@@ -31,7 +40,7 @@ scripts: {
 npm run prime
 ```
 <hr>
-** Add picture of CLI here **
+<img src="http://zillberrycom.fatcow.com/react-prime/react-prime-cli.png" width="650">
 <hr>
 
 ## Deployment
@@ -51,6 +60,19 @@ or, if you have Redux
 Then, an SSR version of your application is automatically hosted on ```http://localhost:8080```.
 
 ## Performance Testing
+
+To view side by side comparison of CSR and SSR renders:
+```
+prime:compare
+```
+
+While Prime compare server is running, execute the following to generate Lighthouse reports:
+```
+prime:CSRreport
+```
+```
+prime:SSRreport
+```
 
 ## Authors
 
