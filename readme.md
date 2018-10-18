@@ -1,6 +1,6 @@
 # React Prime &nbsp;
 [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-[![npm version](https://img.shields.io/npm/v/:package.svg)](https://www.npmjs.com/package/react-prime)
+[![npm](https://img.shields.io/npm/v/:package.svg)](https://www.npmjs.com/package/react-prime)
 ![alt text](https://david-dm.org/andyahn91/react-prime.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/91b75ab8918b4ef19e43b266e5ee17f1)](https://app.codacy.com/app/andyahn91/react-prime?utm_source=github.com&utm_medium=referral&utm_content=andyahn91/react-prime&utm_campaign=Badge_Grade_Dashboard)
 
